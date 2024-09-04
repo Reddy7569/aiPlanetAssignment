@@ -1,0 +1,17 @@
+.ai-challenge-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: "Poppins";
+    color: white;
+    gap: 10px;
+}
+.ai-challenge-discription .ai-challenge-heading{
+    font-size: 20px;
+    font-weight: bold;
+    margin: 0px;
+}
+.ai-challenge-discription .ai-challenge-content{
+    font-size: 15px;
+    margin: 0px;
+}

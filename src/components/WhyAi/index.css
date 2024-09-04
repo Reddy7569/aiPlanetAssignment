@@ -1,0 +1,24 @@
+.why-ai-main-container{
+    padding: 50px 100px;
+    background-color: white;
+    font-family: "Poppins";
+}
+.why-ai-main-container .why-ai-heading{
+    text-align: center;
+    font-size: 30px;
+}
+.why-ai-heading{
+    color: black;
+    font-size: 20px;
+}
+.why-ai-heading span {
+    color: rgba(68, 146, 76, 1);
+}
+.why-ai-lists{
+    list-style-type: none;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    padding: 15px 0px 0px 0px;
+}

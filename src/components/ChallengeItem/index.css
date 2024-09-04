@@ -1,0 +1,61 @@
+.challenge-item-container{
+    font-family: "Poppins";
+    width: 30%;
+    background-color: white;
+    border-radius: 15px;
+}
+.challenge-item-name{
+    color: black;
+    font-size: 20px;
+}
+.challenge-details{
+    text-align: center;
+    padding: 20px 20px;
+}
+.status.active{
+  color: rgba(68, 146, 76, 1);
+  background-color: #B4E380;
+ padding: 10px 10px;
+    border-radius: 10px;
+    margin: 0;
+    font-size: 10px;
+}
+.challenge-image{
+    width: 100%;
+}
+.status.upcoming {
+    color: #3D5656;
+    background-color: #EDE9D5;
+    padding: 10px 10px;
+    border-radius: 10px;
+    margin: 0;
+    font-size: 10px;
+}
+.status.past {
+    color: #3D5656;
+    background-color: #F4BBBB;
+    padding: 10px 10px;
+    border-radius: 10px;
+    margin: 0;
+    font-size: 10px;
+}
+.challenge{
+    color:grey;
+    font-size: 15px;
+}
+.timer{
+    color: gray;
+    font-size: 17px;
+}
+.participate-link{
+    color: white;
+    background-color: rgba(68, 146, 76, 1);
+    border-radius: 10px;
+    padding: 10px 20px;
+    font-family: "Poppins";
+    text-decoration: none;
+}
+.challenge-image{
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}

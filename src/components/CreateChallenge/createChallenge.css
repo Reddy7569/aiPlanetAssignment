@@ -1,0 +1,34 @@
+.create-challenge{
+    font-family:"Poppins";
+    background-color: white; 
+    margin: 0px;
+    
+}
+.create-challenge-heading{
+    background-color: rgba(248, 249, 253, 1);
+    padding: 20px;
+    font-size: 20px;
+}
+.create-challenge-form{
+    padding: 30px 100px;
+}
+.challenge-input{
+  display: flex;
+  flex-direction: column;
+  padding: 10px 0px;
+}
+.challenge-text{
+    max-width: 30%;
+    padding: 10px 10px ;
+    border: 1px solid grey;
+    border-radius: 10px;
+}
+.create-challenge-button{
+    color: white;
+    background-color:rgba(68, 146, 76, 1);
+    font-family: "Poppins";
+    padding: 10px 14px;
+    border-radius: 12px;
+    font-size: 15px;
+    border: 0px;
+}

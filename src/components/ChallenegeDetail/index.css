@@ -1,0 +1,68 @@
+.challenge-detail{
+  background-color: white;
+  font-family: 'Poppins';
+}
+.challenge-content{
+    background-color: rgba(0, 42, 59, 1) ;
+    padding: 30px 100px;
+    color: white;
+}
+.challenge-editable-content{
+box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+padding: 0px 100px;
+display: flex;
+justify-content: space-between;
+align-items: center;
+}
+.challenge-overview-heading{
+    font-size: 20px;
+    font-weight: bold;
+}
+.challenge-discription{
+    padding: 20px 100px;
+    width: 70%;
+}
+.edit-btn{
+    color: white;
+    background-color:rgba(68, 146, 76, 1) ;
+    padding: 6px 25px;
+    border-radius: 10px;
+    border: 0px;
+    font-family: "Poppins";
+    font-weight: 600;
+}
+.delete-btn{
+    color:red;
+    background-color:transparent ;
+    padding: 6px 25px;
+    border-radius: 10px;
+    border: 1px solid red;
+    font-family: "Poppins";
+    font-weight: 600;
+    margin: 0px 10px;
+}
+.challenge-detail-level{
+    display: inline-flex;
+    background-color:white;
+    color: rgba(0, 42, 59, 1);
+    border-radius: 10px;
+    padding: 6px 10px;
+    justify-content: center;
+    align-items: center;
+}
+.status-text{
+    margin: 0px;
+    padding-left: 5px;
+    font-size: 15px;
+    font-weight: 600;
+}
+.challenge-description{
+    padding: 30px 100px;
+}
+.challenge-status-txt{
+    display: inline-flex;
+    background-color: rgba(255, 206, 92, 1);
+    color: black;
+    border-radius: 10px ;
+    padding: 10px 25px;
+}

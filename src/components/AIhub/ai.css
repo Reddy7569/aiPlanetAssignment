@@ -1,0 +1,9 @@
+.challenges-main-container{
+    background-color: rgba(0, 42, 59, 1);
+    padding: 30px 100px;
+}
+.ai-challenges-container{
+    list-style-type: none;
+    display: flex;
+    justify-content: space-around;
+}
