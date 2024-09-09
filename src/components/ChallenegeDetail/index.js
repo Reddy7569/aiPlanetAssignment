@@ -57,7 +57,7 @@ class ChallengeDetail extends Component {
     if (this.props.onChallengesUpdate) {
       this.props.onChallengesUpdate(updatedChallenges);
     }
-    navigate('/');
+    navigate('/aiPlanetAssignment');
   }
 
   render() {
