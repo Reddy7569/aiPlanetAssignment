@@ -23,7 +23,7 @@ class App extends Component {
             <img src={mainLogo} alt="NavLogo" className='nav-logo'/>
           </div>
           <Routes>
-            <Route exact  path='/' element={<HomePage/>}/>
+            <Route exact  path='/aiPlanetAssignment' element={<HomePage/>}/>
             <Route path="/create-challenge" element={<CreateChallenge/>} />
             <Route path="/challenges/:id" element={<ChallengeDetail challenges={challenges}/>}/>
             <Route path="/edit-challenge/:id" element={<EditChallenge challenges={challenges}/>}/>
