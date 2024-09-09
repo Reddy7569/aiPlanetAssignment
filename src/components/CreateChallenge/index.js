@@ -96,7 +96,7 @@ class CreateChallenge extends Component {
         status: "", 
       },
     });
-    this.props.navigate('/'); 
+    this.props.navigate('/aiPlanetAssignment'); 
   };
 
   render() {

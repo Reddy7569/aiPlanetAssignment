@@ -117,7 +117,7 @@ class EditChallenge extends Component {
     );
 
     localStorage.setItem("challenges", JSON.stringify(updatedChallenges));
-    this.props.navigate('/'); 
+    this.props.navigate('/aiPlanetAssignment'); 
   };
 
   render() {
