@@ -1,5 +1,5 @@
 import React , {Component} from 'react';
-import {BrowserRouter as Router, Routes,Route } from 'react-router-dom';
+import { Routes,Route } from 'react-router-dom';
 import mainLogo from './mainLogo.png';
 import CreateChallenge from './components/CreateChallenge';
 import ChallengeDetail from './components/ChallenegeDetail';
@@ -23,7 +23,7 @@ class App extends Component {
               <img src={mainLogo} alt="NavLogo" className='nav-logo'/>
             </div>
             <Routes>
-              <Route exact  path='/aiPlanetAssignment' element={<HomePage/>}/>
+              <Route exact  path='/' element={<HomePage/>}/>
               <Route path="/create-challenge" element={<CreateChallenge/>} />
               <Route path="/challenges/:id" element={<ChallengeDetail challenges={challenges}/>}/>
               <Route path="/edit-challenge/:id" element={<EditChallenge challenges={challenges}/>}/>
