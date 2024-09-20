@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/aiPlanetAssignment/static/css/main.39864eac.css",
-    "main.js": "/aiPlanetAssignment/static/js/main.b5e6d88a.js",
+    "main.js": "/aiPlanetAssignment/static/js/main.5527de30.js",
     "static/media/PicsArt_04-14-04.42 1.svg": "/aiPlanetAssignment/static/media/PicsArt_04-14-04.42 1.9a6fb5c2eb8050d07337d64e4df7c934.svg",
     "static/media/Group 1000002518.svg": "/aiPlanetAssignment/static/media/Group 1000002518.61657b14fc244009282f62fcd9ad7b42.svg",
     "static/media/Group 1000002516.svg": "/aiPlanetAssignment/static/media/Group 1000002516.c9d4654cbc2f6a861916c98150c3de03.svg",
@@ -13,10 +13,10 @@
     "static/media/carbon_notebook-reference.svg": "/aiPlanetAssignment/static/media/carbon_notebook-reference.85f4cfac6336f1d07eddab99d8df0b3a.svg",
     "static/media/carbon_skill-level-basic.svg": "/aiPlanetAssignment/static/media/carbon_skill-level-basic.bb8f8a3b53282cf790c47faf27f8c430.svg",
     "main.39864eac.css.map": "/aiPlanetAssignment/static/css/main.39864eac.css.map",
-    "main.b5e6d88a.js.map": "/aiPlanetAssignment/static/js/main.b5e6d88a.js.map"
+    "main.5527de30.js.map": "/aiPlanetAssignment/static/js/main.5527de30.js.map"
   },
   "entrypoints": [
     "static/css/main.39864eac.css",
-    "static/js/main.b5e6d88a.js"
+    "static/js/main.5527de30.js"
   ]
 }
