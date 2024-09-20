@@ -22,7 +22,7 @@ class App extends Component {
           <div className='nav-hackathon'>
             <img src={mainLogo} alt="NavLogo" className='nav-logo'/>
           </div>
-          <Routes>
+          <Routes basename='/aiPlanetAssignment'>
             <Route exact  path='/aiPlanetAssignment' element={<HomePage/>}/>
             <Route path="/create-challenge" element={<CreateChallenge/>} />
             <Route path="/challenges/:id" element={<ChallengeDetail challenges={challenges}/>}/>
