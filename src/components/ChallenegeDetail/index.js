@@ -86,7 +86,7 @@ class ChallengeDetail extends Component {
         <div className='challenge-editable-content'>
           <p className='challenge-overview-heading'>Overview</p>
           <div className='editable-buttons'>
-            <Link to={`/edit-challenge/${id}`}><button className='edit-btn'>Edit</button></Link>
+            <Link to={`aiPlanetAssignment/edit-challenge/${id}`}><button className='edit-btn'>Edit</button></Link>
             <button className='delete-btn' onClick={this.handleDelete}>Delete</button>
           </div>
         </div>

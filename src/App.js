@@ -24,9 +24,9 @@ class App extends Component {
           </div>
           <Routes basename='/aiPlanetAssignment'>
             <Route exact  path='/aiPlanetAssignment' element={<HomePage/>}/>
-            <Route path="/create-challenge" element={<CreateChallenge/>} />
-            <Route path="/challenges/:id" element={<ChallengeDetail challenges={challenges}/>}/>
-            <Route path="/edit-challenge/:id" element={<EditChallenge challenges={challenges}/>}/>
+            <Route path="aiPlanetAssignment/create-challenge" element={<CreateChallenge/>} />
+            <Route path="aiPlanetAssignment/challenges/:id" element={<ChallengeDetail challenges={challenges}/>}/>
+            <Route path="aiPlanetAssignment/edit-challenge/:id" element={<EditChallenge challenges={challenges}/>}/>
           </Routes>
           
        </div>
