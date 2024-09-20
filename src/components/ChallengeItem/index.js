@@ -76,7 +76,7 @@ const ChallengeItem = (props) => {
         <h1 className="challenge-item-name">{name}</h1>
         <p className="challenge">{text}</p>
         <p className="timer">{timerText}</p>
-        <Link to={`aiPlanetAssignment/challenges/${id}`} className="participate-link">Participate Now</Link>
+        <Link to={`/challenges/${id}`} className="participate-link">Participate Now</Link>
       </div>
     </li>
   );

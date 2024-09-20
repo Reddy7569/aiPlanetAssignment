@@ -8,7 +8,7 @@ function MainPage() {
               <div className="main-page-hackathon-content">
                  <h1 className="main-page-hackathon-heading">Accelerate Innovation <br/>with Global AI Challenges</h1>
                  <p className="main-page-hackathon-discription">AI Challenges at DPhi simulate real-world problems. It is a great place to put your AI/Data Science skills to test on diverse datasets allowing you to foster learning through competitions.</p>
-                 <Link to='aiPlanetAssignment/create-challenge'>
+                 <Link to='/create-challenge'>
                    <button className="create-challenge-btn">Create Challenge</button>
                  </Link>
               </div>
