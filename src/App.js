@@ -1,5 +1,5 @@
 import React , {Component} from 'react';
-import { Routes,Route } from 'react-router-dom';
+import {BrowserRouter as Router, Routes,Route } from 'react-router-dom';
 import mainLogo from './mainLogo.png';
 import CreateChallenge from './components/CreateChallenge';
 import ChallengeDetail from './components/ChallenegeDetail';
@@ -18,18 +18,18 @@ class App extends Component {
   render() { 
     const {challenges} = this.state
     return (
-        <div className='main-hackathon-container'>
-          <div className='nav-hackathon'>
-            <img src={mainLogo} alt="NavLogo" className='nav-logo'/>
-          </div>
-          <Routes basename='/aiPlanetAssignment'>
-            <Route exact  path='/aiPlanetAssignment' element={<HomePage/>}/>
-            <Route path="aiPlanetAssignment/create-challenge" element={<CreateChallenge/>} />
-            <Route path="aiPlanetAssignment/challenges/:id" element={<ChallengeDetail challenges={challenges}/>}/>
-            <Route path="aiPlanetAssignment/edit-challenge/:id" element={<EditChallenge challenges={challenges}/>}/>
-          </Routes>
-          
-       </div>
+          <div className='main-hackathon-container'>
+            <div className='nav-hackathon'>
+              <img src={mainLogo} alt="NavLogo" className='nav-logo'/>
+            </div>
+            <Routes>
+              <Route exact  path='/aiPlanetAssignment' element={<HomePage/>}/>
+              <Route path="aiPlanetAssignment/create-challenge" element={<CreateChallenge/>} />
+              <Route path="aiPlanetAssignment/challenges/:id" element={<ChallengeDetail challenges={challenges}/>}/>
+              <Route path="aiPlanetAssignment/edit-challenge/:id" element={<EditChallenge challenges={challenges}/>}/>
+            </Routes>
+            
+        </div>
     )
   }
 }
