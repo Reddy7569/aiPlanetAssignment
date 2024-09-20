@@ -1,22 +1,22 @@
 {
   "files": {
     "main.css": "/aiPlanetAssignment/static/css/main.39864eac.css",
-    "main.js": "/aiPlanetAssignment/static/js/main.9cbabdbe.js",
+    "main.js": "/aiPlanetAssignment/static/js/main.e4992679.js",
     "static/media/PicsArt_04-14-04.42 1.svg": "/aiPlanetAssignment/static/media/PicsArt_04-14-04.42 1.9a6fb5c2eb8050d07337d64e4df7c934.svg",
     "static/media/Group 1000002518.svg": "/aiPlanetAssignment/static/media/Group 1000002518.61657b14fc244009282f62fcd9ad7b42.svg",
     "static/media/Group 1000002516.svg": "/aiPlanetAssignment/static/media/Group 1000002516.c9d4654cbc2f6a861916c98150c3de03.svg",
     "static/media/Vector.svg": "/aiPlanetAssignment/static/media/Vector.6f92b6033494a4b6b22d023239d802f8.svg",
     "static/media/Robot.svg": "/aiPlanetAssignment/static/media/Robot.459beba5794a56415ceffc3155da8bd1.svg",
-    "static/media/IdentificationCard.svg": "/aiPlanetAssignment/static/media/IdentificationCard.253f17a525de1a9bead2a72642926023.svg",
     "index.html": "/aiPlanetAssignment/index.html",
+    "static/media/IdentificationCard.svg": "/aiPlanetAssignment/static/media/IdentificationCard.253f17a525de1a9bead2a72642926023.svg",
     "static/media/Group 1000002515.svg": "/aiPlanetAssignment/static/media/Group 1000002515.5689f05507f9881cd46df8fa85fb6661.svg",
     "static/media/carbon_notebook-reference.svg": "/aiPlanetAssignment/static/media/carbon_notebook-reference.85f4cfac6336f1d07eddab99d8df0b3a.svg",
     "static/media/carbon_skill-level-basic.svg": "/aiPlanetAssignment/static/media/carbon_skill-level-basic.bb8f8a3b53282cf790c47faf27f8c430.svg",
     "main.39864eac.css.map": "/aiPlanetAssignment/static/css/main.39864eac.css.map",
-    "main.9cbabdbe.js.map": "/aiPlanetAssignment/static/js/main.9cbabdbe.js.map"
+    "main.e4992679.js.map": "/aiPlanetAssignment/static/js/main.e4992679.js.map"
   },
   "entrypoints": [
     "static/css/main.39864eac.css",
-    "static/js/main.9cbabdbe.js"
+    "static/js/main.e4992679.js"
   ]
 }
